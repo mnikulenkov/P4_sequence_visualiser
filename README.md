@@ -13,7 +13,7 @@ so each chart shows only the repeated pattern: the root position is deliberately
 unspecified, and every shape is cropped to its own minimal bounding box.
 
 ```shell
-./sequence_visualiser "P1 M3 P5" --title "Major chord arpeggio" --images
+./sequence_visualiser.py "P1 M3 P5" --title "Major chord arpeggio" --images
 ```
 
 ```
@@ -74,7 +74,7 @@ For `P1 M3 P5` that yields 8 fingerings in 4 groups:
 
 ```shell
 chmod +x sequence_visualiser.py   # if needed
-./sequence_visualiser --help
+./sequence_visualiser.py --help
 ```
 
 ## Usage
@@ -124,9 +124,9 @@ Invalid input exits with status 1 and a message that includes the valid names.
 ## More examples
 
 ```shell
-./sequence_visualiser "P1 m3 d5 m7" -t "Half-diminished 7th chord arpeggio" --images
-./sequence_visualiser "P1 M2 m3 P4 d5 P5 m7" -t "Blues scale"
-./sequence_visualiser P1 m3 P5 -t "Minor triad" --images --format svg
+./sequence_visualiser.py "P1 m3 d5 m7" -t "Half-diminished 7th chord arpeggio" --images
+./sequence_visualiser.py "P1 M2 m3 P4 d5 P5 m7" -t "Blues scale"
+./sequence_visualiser.py P1 m3 P5 -t "Minor triad" --images --format svg
 ```
 
 The [`example/`](example/) folder contains ready-made charts generated with this
