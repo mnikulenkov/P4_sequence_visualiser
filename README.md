@@ -1,4 +1,4 @@
-# Perfect fourth interval sequence visualization
+# Perfect fourth tuning interval sequence visualization
 
 Interval sequence visualizer for fretted instruments in **perfect fourth tuning**
 (all-fourths: E–A–D–G–C–F …). Give it an interval sequence such as `P1 M3 P5` and
